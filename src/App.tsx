@@ -1,5 +1,11 @@
+import AudioPlayer from "components/AudioPlayer";
+
 const App = () => {
-  return <>Hello World!</>;
+  return (
+    <>
+      <AudioPlayer />
+    </>
+  );
 };
 
 export default App;
